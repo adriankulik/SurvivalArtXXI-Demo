@@ -2,7 +2,7 @@
 
 SURVIVAL Art Review is an artistic undertaking intended to maximize the confrontation with the audience in a public space outside art galleries. The organizers’ ambition is to introduce problems raised in young art into public discourse and to provoke the audience to a lively response. Artists taking part in SURVIVAL take the challenge to realize their projects in the urban jungle, in public buildings and in open spaces. The incentive to act is provided by the urban agglomeration with its multitude of meanings. The context of the situation determines the character of the intervention, the possible interpretation of one’s self, which is immersed in the contemporary world. The art created outside the places, which excuse and protect its presence, confronts the reality taken over by mass media, advertisements, economy and politics. In this confrontation art can prove its greatness or reveal its weakness and unnecessity. (https://www.survival.art.pl/en/idea-2/)
 
-## TECH STACH
+## TECH STACK
 
 HTML, CSS, JS (THREE.JS) AND MICROPHONE API.
 THE APP WILL BE RUNNING ON A RASPBERRY PI CONNECTED TO A PROJECTOR AND A MICROPHONE.
