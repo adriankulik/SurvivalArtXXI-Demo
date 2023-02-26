@@ -1,0 +1,17 @@
+@import "./variables.scss";
+
+// HTML ELEMENTS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+canvas {
+  background: $black;
+  display: none;
+}

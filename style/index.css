@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+canvas {
+  background: #000000;
+  display: none;
+}/*# sourceMappingURL=index.css.map */
