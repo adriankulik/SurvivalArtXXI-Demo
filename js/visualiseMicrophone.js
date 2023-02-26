@@ -32,7 +32,7 @@ function main() {
   });
 
   // icosahedron mesh
-  const icosahedronGeometry = new THREE.IcosahedronGeometry(10, 1);
+  const icosahedronGeometry = new THREE.TorusKnotGeometry(10, 3, 100, 16); // TODO: change it to icosahedron at some point. It's better as the protagonist of the story
   const icosahedronMaterial = new THREE.MeshStandardMaterial({
     color: 0xffffff,
     roughness: 1,
@@ -57,7 +57,6 @@ function main() {
   document.body.appendChild(effect.domElement);
 
   // function to make a torusKnot
-  let temp;
   function makeOneKnot(x, y, z, size) {
     const torusKnotGeometry = new THREE.TorusKnotGeometry(size, 3, 100, 16);
     const torusKnotmaterial = new THREE.MeshStandardMaterial({
@@ -112,8 +111,8 @@ function main() {
         light.position.x += elapsedTimeDelta + volume;
       }
       if (icosahedron1 !== null) {
-        icosahedron1.rotation.x += 0.05;
-        icosahedron1.rotation.y += 0.02;
+        icosahedron1.rotation.x += 0.05 + volume;
+        icosahedron1.rotation.y += 0.02 + volume;
         icosahedron1.position.y = 10 * Math.sin(elapsedTime * 3);
         icosahedron1.position.x += elapsedTimeDelta + volume;
         icosahedron1.scale.y = 1 + volume;
