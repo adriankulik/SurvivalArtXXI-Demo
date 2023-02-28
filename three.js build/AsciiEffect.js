@@ -12,7 +12,7 @@ class AsciiEffect {
 
     // Some ASCII settings
 
-    const fResolution = options["resolution"] || 0.25;
+    const fResolution = options["resolution"] || 0.2;
     // Higher for more details
     const iScale = options["scale"] || 1;
     const bColor = options["color"] || false;
