@@ -32,7 +32,7 @@ function main() {
   });
 
   // icosahedron mesh
-  const icosahedronGeometry = new THREE.TorusKnotGeometry(10, 3, 100, 16); // TODO: change it to icosahedron at some point. It's better as the protagonist of the story
+  const icosahedronGeometry = new THREE.TorusKnotGeometry(15, 6, 100, 16); // TODO: change it to icosahedron at some point. It's better as the protagonist of the story
   const icosahedronMaterial = new THREE.MeshStandardMaterial({
     color: 0xffffff,
     roughness: 1,
