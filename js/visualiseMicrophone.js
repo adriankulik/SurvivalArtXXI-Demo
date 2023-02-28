@@ -12,8 +12,8 @@ function main() {
   let camera = new THREE.PerspectiveCamera(
     75,
     window.innerWidth / window.innerHeight,
-    0.01,
-    10000
+    0.00001,
+    1000
   );
   camera.position.set(0, 0, 40);
   scene.add(camera);
@@ -50,13 +50,9 @@ function main() {
   scene.add(light);
 
   //ASCII
-  let effect = new AsciiEffect(
-    renderer,
-    ` .\'",:;Il!i~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$`,
-    {
-      invert: false,
-    }
-  );
+  let effect = new AsciiEffect(renderer, ` .:-=+*#%@`, {
+    invert: false,
+  });
   effect.setSize(window.innerWidth, window.innerHeight);
   effect.domElement.style.color = "white";
   effect.domElement.style.backgroundColor = "black";
