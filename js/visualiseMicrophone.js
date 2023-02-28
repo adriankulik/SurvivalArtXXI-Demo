@@ -50,7 +50,13 @@ function main() {
   scene.add(light);
 
   //ASCII
-  let effect = new AsciiEffect(renderer, " .:-=+*%@#", { invert: false });
+  let effect = new AsciiEffect(
+    renderer,
+    ` .\'",:;Il!i~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$`,
+    {
+      invert: false,
+    }
+  );
   effect.setSize(window.innerWidth, window.innerHeight);
   effect.domElement.style.color = "white";
   effect.domElement.style.backgroundColor = "black";
