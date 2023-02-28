@@ -11,4 +11,13 @@ body {
 canvas {
   background: #000000;
   display: none;
+}
+
+.info {
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000000;
+  color: white;
 }/*# sourceMappingURL=index.css.map */
